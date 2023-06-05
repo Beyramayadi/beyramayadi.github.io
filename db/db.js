@@ -17,37 +17,27 @@ export default {
 	skills: [
 		{
 			title: "Languages",
-			skillName: "JavaScript, C++",
+			skillName: "JavaScript, Dart , Java, Python, Swift, PHP",
 			color: "1",
 			percentage: "70",
 		},
 		{
 			title: "Frameworks/Libraries",
-			skillName: "Angular, Reactjs",
+			skillName: "Flutter, Reactjs, Expressjs, FastAPI, Symfony",
 			color: "6",
 			percentage: "50",
 		},
 		{
 			title: "Backend",
-			skillName: "Nodejs, MongoDB",
+			skillName: "Nodejs, MongoDB, MySQL",
 			color: "2",
 			percentage: "40",
 		},
-		{
-			title: "Clouds",
-			skillName: "AWS(EC2, S3), Heroku, Netlify",
-			color: "3",
-			percentage: "30",
-		},
-		{
-			title: "Design",
-			skillName: "HTML, Bootstrap, SCSS",
-			color: "4",
-			percentage: "70",
-		},
+		
+		
 		{
 			title: "Version Control",
-			skillName: "GitHub, JIRA, Trello",
+			skillName: "GitHub, Trello, Notion",
 			color: "7",
 			percentage: "70",
 		},
@@ -57,20 +47,33 @@ export default {
 			color: "3",
 			percentage: "80",
 		},
-		{
-			title: "Saas products",
-			skillName: "CleverTap, FreshDesk",
-			color: "5",
-			percentage: "50",
-		},
+		
 		{
 			title: "Editor",
-			skillName: "VS Code",
+			skillName: "VS Code, Android Studio, XCode, PyCharm",
 			color: "6",
 			percentage: "70",
 		},
 	],
 	projects: {
+		android: [
+			{
+				projectName: "SaveMe",
+				image: "images/nitwcse.jpg",
+				summary:
+					"An app that helps people detect bipolar disorder and depression using machine learning and provides them with a platform to connect with people who are going through the same.",
+				preview: "https://github.com/vinaysomawat/NITW-CSE",
+				techStack: ["Flutter", "ExpressJs", "Python", "MongoDB"],
+			},
+			{
+				projectName: "SchoolSpace",
+				image: "images/carrerhigh.png",
+				summary:
+					"A school management app built with SwiftUI and Swift. It provides a comprehensive solution for managing various aspects of a school, including attendance tracking, quizzes, exams, user management, and more.",
+				preview: "https://appgallery.huawei.com/app/C107552189",
+				techStack: ["Kotlin","Android Studio","Swift", "SwiftUI", "XCode", "Firebase"],
+			},
+		],
 		web: [
 			{
 				projectName: "Programming Diaries",
@@ -138,24 +141,7 @@ export default {
 				techStack: ["Tkinter", "Openxlpy", "Python"],
 			},
 		],
-		android: [
-			{
-				projectName: "NITW-CSE",
-				image: "images/nitwcse.jpg",
-				summary:
-					"The Application display details of Department courses, reference books, research, publication and faculty profile.",
-				preview: "https://github.com/vinaysomawat/NITW-CSE",
-				techStack: ["JAVA", "XML", "Android"],
-			},
-			{
-				projectName: "CareerHigh-App",
-				image: "images/carrerhigh.png",
-				summary:
-					"The Application display the webpages of website careerhigh.in in android devices.",
-				preview: "https://github.com/vinaysomawat/CareerHigh-Android",
-				techStack: ["JAVA", "XML", "Android"],
-			},
-		],
+		
 		freelance: [
 			{
 				projectName: "SnylloAir.com",
