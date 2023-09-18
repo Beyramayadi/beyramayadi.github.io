@@ -58,7 +58,7 @@ export default {
 	projects: {
 		android: [
 			{
-				projectName: "SaveMe",
+				projectName: "Save Me",
 				image: "images/nitwcse.jpg",
 				summary:
 					"An app that helps people detect bipolar disorder and depression using machine learning and provides them with a platform to connect with people who are going through the same.",
